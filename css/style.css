@@ -1,0 +1,255 @@
+
+@font-face {
+    font-family: 'MiFuentePersonalizada';
+    src: url('../Breaking_Bad.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+:root {
+    --fuente-titulos: 'MiFuentePersonalizada';
+}
+
+/*INDEX*/
+body{
+    font-family: var(--fuente-titulos);
+    color: white ;
+    font-size: 40px;
+    text-align: center;
+}
+
+.fondo{
+    background-image: url("../img/fondo.jpg");
+    background-size: 100%;
+} 
+
+
+.logo{
+    background-image: url("../img/logo.PNG");
+    display: block;
+    margin:1rem auto;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+ }
+
+ .poster{
+    background-image: url("../img/poster.jpg");
+    display: block;
+    margin:1rem auto;
+    background-size: cover;
+    width: 700px;
+    height: 300px;
+
+}
+ 
+.color-borde {
+    border: 10px brown;
+    border-style: outset;
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+    border-bottom-left-radius: 22px;
+} 
+/*FIN INDEX*/
+
+/*FORMULARIO*/
+.letra{
+    color: white ;
+    font-family: Helvetica;
+    font-size: 14px;
+    text-align: left;
+}
+
+
+.boxe{
+    box-sizing: content-box;
+    width: 20%;
+    display: block;
+}
+
+.box{
+    box-sizing: content-box;
+    width: 97%;
+    border: solid 1px;
+    padding: 20px;
+}
+
+.box-fin{
+    margin:auto;
+}
+/*FIN FORMULARIO*/
+
+/*TABLA*/
+.cabecera{
+    background-image: url("../img/cabecera.png");
+    display: block;
+    margin:auto;
+    width: 450px;
+    height: 220px;
+ }
+
+.fondo-tabla{
+    background-color: #0c3e11;
+}
+
+table{
+    border-collapse: collapse;
+    background-color:black;
+    border: black 7px solid;
+    empty-cells: hide;
+    font-family: helvetica;
+    font-weight: bold;
+    margin: 1rem auto;
+}
+td{
+    border: black 7px solid;
+    height: 70px;
+    width: 70px;
+    /*padding: 0.5rem;*/
+    margin-bottom: 0px;
+}
+
+.letra1{
+  font-size: 40px;
+  color: black;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.nombre1{
+  font-size: 10px;
+  color: black;
+  font-weight: normal;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/*COLORES TABLA*/
+.colorVA{
+    background-color: greenyellow;
+  }
+
+  .colorDOG{
+    background-color: rgb(88, 122, 8);
+  }
+
+  .colorabajo{
+    background-color: rgb(169, 210, 88);;
+  }
+
+  .colorceldas{
+    background-color: black;
+  }
+
+  .colorVOscuro{
+    background-color: rgb(33, 53, 8);
+  }
+  .colorGris{
+    background-color: rgba(202, 247, 130, 0.945);
+  }
+  .colorVC{
+    background-color: rgb(228, 243, 206);
+  }
+
+  .colorVG{
+    background-color: rgb(79, 95, 40);
+  }
+
+  .otroVerde{
+    background-color:rgb(147, 219, 84);
+  }
+
+   .colorMorado{
+    background-color: rgb(168, 90, 184);
+  }
+
+  /*TABLA ABAJO*/
+  .colortabla2{
+    background-color: rgb(152, 189, 30);
+  }
+
+  /* 
+  IMAGEN TABLA 1
+  */
+#HS{
+  background-image: url(../img/Tabla_Periódica/hankschrader.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 71px;
+}
+  /*
+IMAGEN TABLA 2
+*/
+.tamaño2{
+  width: 50%;
+}
+.Bus{
+  background-image: url(../img/Tabla_Periódica/bus.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+}
+
+.Pistola{
+  background-image: url(../img/Tabla_Periódica/pistola.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+}
+
+.Pocima{
+  background-image: url(../img/Tabla_Periódica/pocima.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 80%;
+}
+
+.Movil{
+  background-image: url(../img/Tabla_Periódica/movil.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+}
+
+.Mosca{
+  background-image: url(../img/Tabla_Periódica/mosca.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+}
+
+.Cristal{
+  background-image: url(../img/Tabla_Periódica/cristal.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+}
+
+.Pizza{
+  background-image: url(../img/Tabla_Periódica/pizza.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+}
+
+.Calzoncillos{
+  background-image: url(../img/Tabla_Periódica/calzoncillos.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+}
+
+.Mascara{
+  background-image: url(../img/Tabla_Periódica/mascara.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+}
+
+.Plato {
+  background-image: url(../img/Tabla_Periódica/plato.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+}

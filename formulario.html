@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" >
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <title>Breaking Bad – ¡Que comience el juego!</title>
+</head>
+<body class="fondo letra">
+    <form  action="mailto:raul.rodriguez@proeducaglobal.com">
+        <fieldset>
+            <legend>Datos personales:</legend> 
+            <p>Nombre:<input type="text" required class="boxe">
+            <br>Apellidos:<input type="text" required class="boxe">
+            <br>DNI:<input type="text" required class="boxe">
+            <br>Dirección Postal<input type="text" required class="boxe">
+            <br>Código Postal:<input type="text" required class="boxe">
+            <br>Ciudad:<input type="text" required class="boxe"> 
+            <br>Correo electrónico*:<input type="email" placeholder="raul@unir.fp" 
+                required class="boxe">
+            <br><legend>Sexo</legend>
+            <br><input type="radio" name="Sexo" value="Hombre">Hombre
+            <br><input type="radio" name="Sexo" value="Mujer">Mujer
+            <br>
+            <br>Fecha de nacimiento:<input type="date" name="" id="">
+        </fieldset>
+        <fieldset>
+            <legend>Personaje favorito:</legend> 
+            <select name="personajes">
+                <option value="1">Jessie Pinkman</option>
+                <option value="2">Walter White</option>
+                <option value="3">Saul Goodman</option>
+                <option value="4">Gustavo Fring</option>
+                <option value="5">Pollos Hermanos</option>
+                <option value="6">Otros personajes</option>
+            </select>
+        </fieldset>
+        <p>Comentarios:
+        <br><textarea placeholder="Introduce un comentario de los personajes y la serie." maxlength="500" 
+        class="box">
+            </textarea>
+        <br>
+        <p>Adjuntar Archivos:<input type="file" name="adjunto" multiple>
+        <br>
+        <br><input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+    </form>
+</body>
